@@ -1,0 +1,31 @@
+h1 {
+    display: block;
+    font-size: 5em;
+    margin-top: 0.75em;
+    margin-bottom: 0.50em;
+    text-align:center;
+    background-color: #1ca194;
+    padding: 20px;
+}
+
+.Wähle {
+    display: flex;
+    font-size: xx-large;
+    flex-direction: row;
+    margin-bottom: 0.50em;
+    background-color: #1ca194;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.Wähle a {
+    color: #070707;
+}
+
+.foto {
+    text-align: center;
+    margin-top: 3em;
+
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Sprachkurs Buchung </title>
+</head>
+<body>
+    <header>
+        <h1><A> Sprachkurs Buchung </A></h1>
+    </header>
+    <main>
+        <div class="Formular">
+          <section>
+            
+                <h2> Informationen zur Anmeldung</h2>
+                <form action= "Bestätigung.html" method="get" id="anmeldung">
+                    <label for="vorname"> Vorname: </label>
+                    <input type="text" id="vorname" name="vorname" required>
+
+                    <label for="nachname"> Nachname: </label>
+                    <input type="text" id="nachname" name="nachname" required>
+                    
+                    <label for="email"> email: </label>
+                    <input type="text" id="email" name="email" required>
+
+                    <label for="sprache"> Sprache:</label>
+                    <select id="kurs" name="kurs" required>
+                        <option value="">Wähle einen Kurs</option>
+                        <option value="deutsch">Deutsch</option>
+                        <option value="englisch">Englisch</option>
+                        <option value="franzoesisch">Französisch</option>
+                        <option value="Persisch">Persisch</option>
+                        <option value="Italienisch">Italienisch</option>
+                    </select>
+
+                    <label for="tag"> Tag:</label>
+                    <input type="date" id="tag" name="tag" required>
+
+                    <label for="zeit"> Zeit:</label>
+                    <input type="time" id="zeit" name="zeit" required>
+                    
+                    <button type="submit"> Buchung abschließen </button>
+                     
+                </form>
+
+           </section>
+        </div>
+    </main>
+    <script src="anmeldung-script.js"></script> 
+    
+</body>
+</html>
